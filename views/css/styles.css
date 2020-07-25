@@ -21,7 +21,7 @@ body, html {
 
 .bg2 {
   /* The image used */
-  background-image: url("https://media-private.canva.com/j9QGA/MAECvMj9QGA/1/tl.jpg?response-expires=Wed%2C%2022%20Jul%202020%2022%3A47%3A05%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200722T202924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=8260&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20200722%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3a03009bf3d838049865c274afa43feb7e1d1fd1569bbd123bdd2fca014e3d46");
+  background-image: url("img/boyos.jpg");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
