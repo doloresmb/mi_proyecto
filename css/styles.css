@@ -2,18 +2,19 @@
   font-family: oswald, sans-serif; }
 
 h3 {
-  font-family: Bevan, cursive;
-  color: white;
-  font-size: 30px; }
+  font-family: Abril Fatface, cursive;
+  color: #796c6d;
+  font-size: 20px;
+  text-transform: capitalize; }
 
 body, html {
   height: 100%; }
 
 .bg {
   /* The image used */
-  background-image: url("img/boyos.jpg");
+  background-image: url("../img/dantes.png");
   /* Full height */
-  height: 100%;
+  height: 100vh;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -21,15 +22,36 @@ body, html {
 
 .bg2 {
   /* The image used */
-  background-image: url("img/boyos.jpg");
+  background-image: url("../img/bgpizzas.png");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-color: transparent;
+  height: 100vh; }
 
 p {
-  font-family: Bevan, cursive;
+  font-family: Abril Fatface, cursive;
   color: white;
-  font-size: 35px; }
+  font-size: 15px;
+  text-align: justify; }
+
+.rightnav a:hover {
+  background-color: #F44336;
+  color: black; }
+
+body, html {
+  height: 100%; }
+
+.bg3 {
+  background-color: #d6c5c7; }
+
+.bg4 {
+  background-color: black;
+  height: 100vh; }
+
+.thumbnail {
+  background-color: #d6c5c7;
+  border-color: #d6c5c7; }

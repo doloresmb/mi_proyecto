@@ -1,17 +1,19 @@
 
 $cool-red: #F44336;
 $font: oswald, sans-serif;
-$font2: Piedra, cursive;
+$font2: Abril Fatface, cursive;
 $font3: Alfa Slab One, cursive;
 $font4: Candal, sans-serif;
-$font5: Bevan, cursive;;
+$colorgr:#d6c5c7;
 $colorb: black;
 $colorg: green;
 $colorw: white;
+$colorf: #796c6d;
 $colort: transparent;
 $descript: uppercase;
 $textj: justify;
 $textc: center;
+$textcap: capitalize;
 
 
 
@@ -27,9 +29,11 @@ $textc: center;
 
 
 h3{
-    font-family: $font5;
-    color: $colorw;
-    font-size: 30px;
+    font-family: $font2;
+    color: $colorf;
+    font-size: 20px;
+    text-transform: $textcap;
+    
 }
 
 body, html {
@@ -37,19 +41,20 @@ body, html {
   }
   .bg {
     /* The image used */
-    background-image: url("img/boyos.jpg");
+    background-image: url("../img/dantes.png");
     /* Full height */
-    height: 100%;
+    height: 100vh;
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
 
   .bg2 {
     /* The image used */
-    background-image: url("img/boyos.jpg");
+    background-image: url("../img/bgpizzas.png");
   
     /* Full height */
     height: 100%;
@@ -58,36 +63,39 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: $colort;
+    
+
+    height:100vh;
   }
 
-  p{
-      font-family: $font5;
+p{
+      font-family: $font2;
       color: $colorw;
-      font-size: 35px;
+      font-size: 15px;
+      text-align: $textj;
+      
   }
 
+  .rightnav a:hover {
+    background-color: $cool-red;
+    color: $colorb;
+  }
 
+  body, html {
+    height: 100%;
+  }
+  
+  .bg3{
+    background-color: $colorgr;
+  }
 
+  .bg4{
+    background-color: $colorb;
+    height:100vh;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .thumbnail{
+    background-color: $colorgr;
+    border-color: transparentize($colorgr, $amount: 0);
+  }
