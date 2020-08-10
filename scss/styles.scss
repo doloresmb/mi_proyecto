@@ -69,11 +69,12 @@ body, html {
     height:100vh;
   }
 
-p{
+p{    display: inline;
       font-family: $font2;
       color: $colorw;
       font-size: 15px;
-      text-align: $textj;
+      text-align: right;
+      text-transform: $textcap;
       
   }
 
@@ -92,10 +93,20 @@ p{
 
   .bg4{
     background-color: $colorb;
+    background-size: cover;
     height:100vh;
+
   }
 
   .thumbnail{
     background-color: $colorgr;
     border-color: transparentize($colorgr, $amount: 0);
+  }
+
+  li{
+    list-style: none;
+    color: $colorw;
+    font-family: $font4;
+    font-size: 15px;
+    text-align: center;
   }

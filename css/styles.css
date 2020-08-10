@@ -33,10 +33,12 @@ body, html {
   height: 100vh; }
 
 p {
+  display: inline;
   font-family: Abril Fatface, cursive;
   color: white;
   font-size: 15px;
-  text-align: justify; }
+  text-align: right;
+  text-transform: capitalize; }
 
 .rightnav a:hover {
   background-color: #F44336;
@@ -50,8 +52,16 @@ body, html {
 
 .bg4 {
   background-color: black;
+  background-size: cover;
   height: 100vh; }
 
 .thumbnail {
   background-color: #d6c5c7;
   border-color: #d6c5c7; }
+
+li {
+  list-style: none;
+  color: white;
+  font-family: Candal, sans-serif;
+  font-size: 15px;
+  text-align: center; }
